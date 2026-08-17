@@ -11,11 +11,11 @@
 [![Platform Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)](file:///Users/fahmidhasantaohid/Desktop/ShotgunKeys/releases/ShotgunKeys-Windows.zip)
 [![Platform Android](https://img.shields.io/badge/Platform-Android%20APK-3DDC84?logo=android)](file:///Users/fahmidhasantaohid/Desktop/ShotgunKeys/releases/ShotgunKeys.apk)
 [![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-orange?logo=github)](https://fahmidhasann.github.io/ShotgunKeys/)
+[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-orange?logo=github)](https://fahmidhasantaohid.github.io/ShotgunKeys/)
 
 ---
 
-### 🌐 [Live Web Soundboard & Download Center](https://fahmidhasann.github.io/ShotgunKeys/)
+### 🌐 [Live Web Soundboard & Download Center](https://fahmidhasantaohid.github.io/ShotgunKeys/)
 
 </div>
 
