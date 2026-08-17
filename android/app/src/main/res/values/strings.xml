@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShotgunKeys</string>
+    <string name="app_tagline">Tactical Typing Audio Engine</string>
+    <string name="accessibility_service_desc">Enables ShotgunKeys to detect keyboard typing in all apps and play realistic shotgun blasts &amp; pump reloads.</string>
+    
+    <!-- Status & Alerts -->
+    <string name="status_active">ENGINE ACTIVE</string>
+    <string name="status_inactive">SERVICE DISABLED</string>
+    <string name="accessibility_enable_prompt">Enable Accessibility Service to trigger shotgun blasts while typing in any app (GBoard, WhatsApp, Chrome, etc.)</string>
+    <string name="btn_enable_service">ENABLE ACCESSIBILITY</string>
+    <string name="btn_service_active">SERVICE RUNNING</string>
+    
+    <!-- Soundboard -->
+    <string name="soundboard_title">TACTICAL SOUNDBOARD</string>
+    <string name="btn_fire_blast">FIRE BLAST</string>
+    <string name="btn_pump_reload">PUMP RELOAD</string>
+    
+    <!-- Statistics -->
+    <string name="stats_title">COMBAT STATS</string>
+    <string name="stat_shots_fired">Shots Fired</string>
+    <string name="stat_reloads">Pumps &amp; Reloads</string>
+    <string name="stat_reset">Reset</string>
+    
+    <!-- Presets -->
+    <string name="presets_title">SOUND PRESETS</string>
+    <string name="preset_realistic">Realistic 12-Gauge</string>
+    <string name="preset_realistic_desc">Authentic heavy 12-gauge pump shotgun blast</string>
+    <string name="preset_tactical">Tactical Shotgun</string>
+    <string name="preset_tactical_desc">Crisp military breach sound with swift slide</string>
+    <string name="preset_doom">Doom Super Shotgun</string>
+    <string name="preset_doom_desc">Devastating double-barrel blast with heavy reload</string>
+    <string name="preset_silenced">Silenced Shotgun</string>
+    <string name="preset_silenced_desc">Subdued tactical suppressed blast</string>
+    <string name="preset_cyberpunk">Cyberpunk Railgun</string>
+    <string name="preset_cyberpunk_desc">Futuristic energy plasma discharge</string>
+    <string name="preset_arcade">8-Bit Arcade</string>
+    <string name="preset_arcade_desc">Classic retro arcade blip &amp; chiptune pump</string>
+    
+    <!-- Audio & Dynamics Settings -->
+    <string name="settings_title">AUDIO &amp; DYNAMICS</string>
+    <string name="setting_volume">Master Volume</string>
+    <string name="setting_micro_dynamics">Natural Micro-dynamics</string>
+    <string name="setting_micro_dynamics_sub">Adds subtle random pitch &amp; gain variations for organic realistic sound</string>
+    <string name="setting_space_reload">Space / Enter Reload</string>
+    <string name="setting_space_reload_sub">Plays authentic pump reload on Space &amp; Enter/Return</string>
+    <string name="setting_haptics">Tactical Haptic Feedback</string>
+    <string name="setting_haptics_sub">Vibrates device on gunshot and reload action</string>
+    <string name="setting_floating_widget">Floating Trigger Badge</string>
+    <string name="setting_floating_widget_sub">Display a floating draggable trigger button over games &amp; apps</string>
+    
+    <!-- Footer -->
+    <string name="version_info">ShotgunKeys for Android v1.0 • Standalone Edition</string>
+</resources>

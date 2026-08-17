@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💥 ShotgunKeys — Turn Every Keystroke into a 12-Gauge Blast!</title>
+    <meta name="description" content="ShotgunKeys converts your keyboard clicks into powerful shotgun blasts and Space/Enter into tactical pump-action reloads. Available for macOS, Windows, and Android.">
+    <link rel="icon" type="image/png" href="assets/app_icon.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Tactical Glow Background Effect -->
+    <div class="ambient-glow glow-top"></div>
+    <div class="ambient-glow glow-bottom"></div>
+
+    <header class="hero-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="brand">
+                    <img src="assets/app_icon.png" alt="ShotgunKeys Logo" class="brand-logo">
+                    <div class="brand-text">
+                        <span class="brand-title">ShotgunKeys</span>
+                        <span class="brand-badge">v1.0.0</span>
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <a href="#preview" class="nav-link">সাউন্ড প্রিভিউ</a>
+                    <a href="#downloads" class="nav-link">ডাউনলোড</a>
+                    <a href="#instructions" class="nav-link">ইনস্টলেশন গাইড</a>
+                    <a href="https://github.com/fahmidhasann/ShotgunKeys" target="_blank" class="github-btn" id="githubRepoLink">
+                        <svg class="github-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </nav>
+
+            <div class="hero-content">
+                <div class="headline-pill">
+                    <span class="live-dot"></span>
+                    <span>100% Free & Open-Source • Cross-Platform</span>
+                </div>
+                <h1 class="hero-title">প্রতিটি কি-ক্লিক হবে <span class="highlight-text">শর্টগান ব্লাস্ট!</span></h1>
+                <p class="hero-subtitle">
+                    কীবোর্ডে কোনো বাটন প্রেস করলেই বাজবে আসল 12-Gauge শর্টগান ফায়ার এবং <strong>Space</strong> বা <strong>Enter</strong> চাপলে পাম্প-অ্যাকশন রিলোড। টাইপিং ও গেমিংকে বানিয়ে ফেলুন সুপার এক্সাইটিং!
+                </p>
+
+                <!-- Dynamic OS Auto-Detector Banner -->
+                <div class="os-detect-banner" id="osBanner">
+                    <span class="detect-text">আপনার ডিভাইসের জন্য প্রস্তাবিত:</span>
+                    <strong class="detected-os" id="detectedOsName">ডিভাইস ডিটেক্ট করা হচ্ছে...</strong>
+                </div>
+
+                <div class="hero-cta-buttons">
+                    <a href="#downloads" class="primary-cta-btn">
+                        <span class="btn-icon">⚡</span>
+                        <span>ফ্রি ডাউনলোড করুন</span>
+                    </a>
+                    <a href="#preview" class="secondary-cta-btn">
+                        <span class="btn-icon">🔊</span>
+                        <span>সাউন্ড টেস্ট করুন</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Interactive Web Soundboard Section -->
+    <section class="section preview-section" id="preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">LIVE SOUND TEST</span>
+                <h2 class="section-title">ডাউনলোডের আগেই সাউন্ড শুনে দেখুন!</h2>
+                <p class="section-desc">যেকোনো প্রিসেট বেছে নিন এবং নিচের ফায়ার বাটনে ক্লিক করে সাউন্ড টেস্ট করুন।</p>
+            </div>
+
+            <div class="soundboard-card">
+                <div class="preset-selector-tabs" id="presetTabs">
+                    <button class="preset-tab active" data-preset="realistic">
+                        <span class="tab-emoji">🔥</span>
+                        <span class="tab-title">Realistic 12-Gauge</span>
+                    </button>
+                    <button class="preset-tab" data-preset="tactical">
+                        <span class="tab-emoji">🎯</span>
+                        <span class="tab-title">Tactical Combat</span>
+                    </button>
+                    <button class="preset-tab" data-preset="doom">
+                        <span class="tab-emoji">⚡</span>
+                        <span class="tab-title">Heavy Doom</span>
+                    </button>
+                    <button class="preset-tab" data-preset="silenced">
+                        <span class="tab-emoji">🤫</span>
+                        <span class="tab-title">Silenced Spec-Ops</span>
+                    </button>
+                    <button class="preset-tab" data-preset="cyberpunk">
+                        <span class="tab-emoji">⚛️</span>
+                        <span class="tab-title">Cyberpunk Plasma</span>
+                    </button>
+                    <button class="preset-tab" data-preset="arcade">
+                        <span class="tab-emoji">🕹️</span>
+                        <span class="tab-title">8-Bit Arcade</span>
+                    </button>
+                </div>
+
+                <div class="soundboard-controls">
+                    <div class="active-preset-info">
+                        <h3 id="activePresetTitle">Realistic 12-Gauge</h3>
+                        <p id="activePresetDesc">Winchester Model 12 & Benelli Nova ১২-গেজ শর্টগানের আসল লাইভ রেকর্ডিং ব্লাস্ট।</p>
+                    </div>
+
+                    <div class="trigger-buttons-grid">
+                        <button class="fire-btn blast-action-btn" id="btnWebBlast">
+                            <div class="btn-ripple"></div>
+                            <span class="fire-icon">💥</span>
+                            <span class="fire-label">FIRE BLAST</span>
+                            <span class="fire-subtext">(যেকোনো অক্ষরের ক্লিকে বাজে)</span>
+                        </button>
+                        <button class="fire-btn reload-action-btn" id="btnWebReload">
+                            <div class="btn-ripple"></div>
+                            <span class="fire-icon">🔄</span>
+                            <span class="fire-label">PUMP RELOAD</span>
+                            <span class="fire-subtext">(Space ও Enter চাপলে বাজে)</span>
+                        </button>
+                    </div>
+
+                    <div class="live-counter-row">
+                        <div class="counter-box">
+                            <span class="counter-label">টেস্ট ব্লাস্ট সংখ্যা</span>
+                            <span class="counter-val" id="webBlastCount">0</span>
+                        </div>
+                        <div class="counter-box">
+                            <span class="counter-label">টেস্ট রিলোড সংখ্যা</span>
+                            <span class="counter-val" id="webReloadCount">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Center Section -->
+    <section class="section downloads-section" id="downloads">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">DOWNLOAD CENTER</span>
+                <h2 class="section-title">আপনার অপারেটিং সিস্টেম অনুযায়ী ডাউনলোড করুন</h2>
+                <p class="section-desc">কোনো জটিল ইন্সটলেশন নেই। ফাইলটি ডাউনলোড করে ডাবল ক্লিক করলেই চলবে!</p>
+            </div>
+
+            <div class="download-cards-grid">
+                <!-- macOS Card -->
+                <div class="download-card" id="cardMac">
+                    <div class="card-os-badge os-mac">
+                        <span class="os-icon">🍏</span> macOS
+                    </div>
+                    <h3 class="card-title">ShotgunKeys for Mac</h3>
+                    <p class="card-desc">Apple Silicon (M1/M2/M3/M4) এবং Intel ম্যাকের মেনু বার অ্যাপ। জিরো ল্যাগ ও নেটিভ সুইফট স্পিড।</p>
+                    <div class="file-meta">
+                        <span>📦 সাইজ: ~১.২ MB</span>
+                        <span>🖥️ রিকোয়ারমেন্ট: macOS 13.0+</span>
+                    </div>
+                    <a href="https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-macOS.zip" class="download-btn-primary" id="btnDownloadMac">
+                        <span class="d-icon">⬇️</span>
+                        <span>Download for Mac (.zip)</span>
+                    </a>
+                    <span class="sub-link">ShotgunKeys.app সহ রেডি-টু-রান প্যাকেজ</span>
+                </div>
+
+                <!-- Windows Card -->
+                <div class="download-card" id="cardWindows">
+                    <div class="card-os-badge os-windows">
+                        <span class="os-icon">🪟</span> Windows
+                    </div>
+                    <h3 class="card-title">ShotgunKeys for Windows</h3>
+                    <p class="card-desc">উইন্ডোজ ১০ ও ১১ এর জন্য পোর্টেবল প্যাকেজ। কাস্টম সাউন্ড ড্রপ ও ব্যাকগ্রাউন্ড সিস্টেম ট্রে সাপোর্ট।</p>
+                    <div class="file-meta">
+                        <span>📦 সাইজ: ~৯০০ KB</span>
+                        <span>🖥️ রিকোয়ারমেন্ট: Windows 10/11</span>
+                    </div>
+                    <a href="https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-Windows.zip" class="download-btn-primary" id="btnDownloadWindows">
+                        <span class="d-icon">⬇️</span>
+                        <span>Download for Windows (.zip)</span>
+                    </a>
+                    <span class="sub-link">পোর্টেবল প্যাকেজ (ডাবল ক্লিকে রান)</span>
+                </div>
+
+                <!-- Android Card -->
+                <div class="download-card" id="cardAndroid">
+                    <div class="card-os-badge os-android">
+                        <span class="os-icon">🤖</span> Android
+                    </div>
+                    <h3 class="card-title">ShotgunKeys for Android</h3>
+                    <p class="card-desc">সরাসরি ইনস্টলেবল ফুল APK। যেকোনো কীবোর্ডে টাইপ করলেই শর্টগান সাউন্ড বাজবে + ফ্লোটিং ট্রিগার উইজেট।</p>
+                    <div class="file-meta">
+                        <span>📦 সাইজ: ~১.২ MB</span>
+                        <span>📱 রিকোয়ারমেন্ট: Android 8.0+</span>
+                    </div>
+                    <a href="https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys.apk" class="download-btn-primary" id="btnDownloadAndroid">
+                        <span class="d-icon">⬇️</span>
+                        <span>Download APK (.apk)</span>
+                    </a>
+                    <span class="sub-link">সরাসরি মোবাইলে ইনস্টলেবল Signed APK</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation & Setup Instructions -->
+    <section class="section instructions-section" id="instructions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">EASY SETUP GUIDE</span>
+                <h2 class="section-title">খুব সহজে যেভাবে সেটআপ করবেন</h2>
+                <p class="section-desc">মাত্র ৩০ সেকেন্ডে যেকোনো ওএসে চালু করার নিয়মাবলী:</p>
+            </div>
+
+            <div class="guide-grid">
+                <!-- Mac Guide -->
+                <div class="guide-box">
+                    <div class="guide-head">
+                        <span class="guide-icon">🍏</span>
+                        <h3>macOS এ যেভাবে চালাবেন</h3>
+                    </div>
+                    <ol class="step-list">
+                        <li><strong>ShotgunKeys-macOS.zip</strong> ডাউনলোড করে আনজিপ করুন।</li>
+                        <li><strong>ShotgunKeys.app</strong> টিকে Applications ফোল্ডারে নিয়ে ডাবল ক্লিক করুন।</li>
+                        <li>মেনু বারের 🔥 আইকনে ক্লিক করে <strong>"Grant Permission"</strong> দিয়ে Accessibility পারমিশন অন করুন।</li>
+                    </ol>
+                </div>
+
+                <!-- Windows Guide -->
+                <div class="guide-box">
+                    <div class="guide-head">
+                        <span class="guide-icon">🪟</span>
+                        <h3>Windows এ যেভাবে চালাবেন</h3>
+                    </div>
+                    <ol class="step-list">
+                        <li><strong>ShotgunKeys-Windows.zip</strong> ডাউনলোড করে এক্সট্রাক্ট করুন।</li>
+                        <li>ফোল্ডারে থাকা <strong>run.bat</strong> ফাইলে ডাবল ক্লিক করুন।</li>
+                        <li>অ্যাপ্লিকেশনটি ওপেন হবে এবং সিস্টেম ট্রে-তে মিনিমাইজ হয়ে ব্যাকগ্রাউন্ডে চলবে!</li>
+                    </ol>
+                </div>
+
+                <!-- Android Guide -->
+                <div class="guide-box">
+                    <div class="guide-head">
+                        <span class="guide-icon">🤖</span>
+                        <h3>Android এ যেভাবে চালাবেন</h3>
+                    </div>
+                    <ol class="step-list">
+                        <li><strong>ShotgunKeys.apk</strong> ফাইলটি ডাউনলোড করে ফোনে ইনস্টল করুন।</li>
+                        <li>অ্যাপটি ওপেন করে <strong>"Enable Accessibility"</strong> বাটনে ট্যাপ করে পারমিশন অন করুন।</li>
+                        <li>এখন যেকোনো কীবোর্ডে (GBoard, WhatsApp, ইত্যাদি) টাইপ করলেই শর্টগান সাউন্ড বাজবে!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/app_icon.png" alt="ShotgunKeys" class="footer-logo">
+                    <span class="footer-title">ShotgunKeys</span>
+                </div>
+                <p class="footer-tagline">Crafted with passion for ultimate typing excitement. 100% Free & Open-Source under MIT License.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/fahmidhasann/ShotgunKeys" target="_blank">GitHub Repository</a>
+                    <span>•</span>
+                    <a href="#preview">Web Soundboard</a>
+                    <span>•</span>
+                    <a href="#instructions">Setup Guide</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

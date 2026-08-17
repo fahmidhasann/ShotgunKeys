@@ -1,0 +1,33 @@
+# macOS System & Build Artifacts
+.DS_Store
+*.swp
+*.swo
+*.app
+build/
+dist/
+*.dmg
+
+# Windows / Python Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.spec
+.venv/
+env/
+venv/
+
+# Android Build Artifacts
+.gradle/
+local.properties
+.idea/
+*.iml
+.cxx/
+capture/
+android/app/build/
+android/build/
+
+# Xcode Artifacts
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
