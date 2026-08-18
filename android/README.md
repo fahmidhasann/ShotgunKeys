@@ -100,7 +100,7 @@ You can build the complete signed release APK in **2 seconds** without installin
 
 ```bash
 # 1. Clone or open the repository:
-cd /Users/fahmidhasantaohid/Desktop/ShotgunKeys-Android
+cd ShotgunKeys/android
 
 # 2. Run the standalone build script:
 ./build_apk.sh

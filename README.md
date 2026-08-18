@@ -7,15 +7,15 @@
 ### Turn Every Keystroke into a 12-Gauge Shotgun Blast!
 **প্রতিটি কি-ক্লিকে শর্টগান ব্লাস্ট এবং Space/Enter-এ পাম্প-অ্যাকশন রিলোড সাউন্ড!**
 
-[![Platform macOS](https://img.shields.io/badge/Platform-macOS%2013%2B-blue?logo=apple)](file:///Users/fahmidhasantaohid/Desktop/ShotgunKeys/releases/ShotgunKeys-macOS.zip)
-[![Platform Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)](file:///Users/fahmidhasantaohid/Desktop/ShotgunKeys/releases/ShotgunKeys-Windows.zip)
-[![Platform Android](https://img.shields.io/badge/Platform-Android%20APK-3DDC84?logo=android)](file:///Users/fahmidhasantaohid/Desktop/ShotgunKeys/releases/ShotgunKeys.apk)
+[![Platform macOS](https://img.shields.io/badge/Platform-macOS%2013%2B-blue?logo=apple)](https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-macOS.zip)
+[![Platform Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)](https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-Windows.zip)
+[![Platform Android](https://img.shields.io/badge/Platform-Android%20APK-3DDC84?logo=android)](https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys.apk)
 [![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-orange?logo=github)](https://fahmidhasantaohid.github.io/ShotgunKeys/)
+[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-orange?logo=github)](https://fahmidhasann.github.io/ShotgunKeys/)
 
 ---
 
-### 🌐 [Live Web Soundboard & Download Center](https://fahmidhasantaohid.github.io/ShotgunKeys/)
+### 🌐 [Live Web Soundboard & Download Center](https://fahmidhasann.github.io/ShotgunKeys/)
 
 </div>
 
@@ -27,9 +27,9 @@
 
 | অপারেটিং সিস্টেম | ডাউনলোড ফাইল | সাইজ | চালানোর নিয়ম |
 | :--- | :--- | :--- | :--- |
-| 🍏 **macOS** | [**Download for Mac (.zip)**](releases/ShotgunKeys-macOS.zip) | ~১.২ MB | আনজিপ করে `ShotgunKeys.app` ওপেন করুন এবং Accessibility অন করুন। |
-| 🪟 **Windows** | [**Download for Windows (.zip)**](releases/ShotgunKeys-Windows.zip) | ~৯০০ KB | এক্সট্রাক্ট করে `run.bat` ফাইলে ডাবল ক্লিক করুন। |
-| 🤖 **Android** | [**Download APK (.apk)**](releases/ShotgunKeys.apk) | ~১.২ MB | ফোনে ইনস্টল করে Accessibility সার্ভিস চালু করুন। |
+| 🍏 **macOS** | [**Download for Mac (.zip)**](https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-macOS.zip) | ~১.২ MB | আনজিপ করে `ShotgunKeys.app` ওপেন করুন এবং Accessibility অন করুন। |
+| 🪟 **Windows** | [**Download for Windows (.zip)**](https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-Windows.zip) | ~৯০০ KB | এক্সট্রাক্ট করে `run.bat` ফাইলে ডাবল ক্লিক করুন। |
+| 🤖 **Android** | [**Download APK (.apk)**](https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys.apk) | ~১.২ MB | ফোনে ইনস্টল করে Accessibility সার্ভিস চালু করুন। |
 
 ---
 

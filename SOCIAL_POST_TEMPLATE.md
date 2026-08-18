@@ -24,15 +24,15 @@
 ⬇️ যার যে ডিভাইস, এখান থেকে সরাসরি ওয়ান-ক্লিকে নামিয়ে নিন:
 
 🌐 ওয়েব লাইভ সাউন্ড টেস্ট ও ডাউনলোড ল্যান্ডিং পেইজ:
-👉 https://fahmidhasantaohid.github.io/ShotgunKeys/
+👉 https://fahmidhasann.github.io/ShotgunKeys/
 
 📦 ডিরেক্ট ডাউনলোড লিংকস (GitHub Releases):
-🍏 macOS (Apple Silicon/Intel): https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-macOS.zip
-🪟 Windows (10/11 Portable): https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-Windows.zip
-🤖 Android (Full APK): https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys.apk
+🍏 macOS (Apple Silicon/Intel): https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-macOS.zip
+🪟 Windows (10/11 Portable): https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-Windows.zip
+🤖 Android (Full APK): https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys.apk
 
 ⭐ গিটহাব রিপোজিটরি (সম্পূর্ণ সোর্স কোড):
-👉 https://github.com/fahmidhasantaohid/ShotgunKeys
+👉 https://github.com/fahmidhasann/ShotgunKeys
 
 চালিয়ে কেমন লাগলো কমেন্টে জানাতে ভুলবেন না! ভালো লাগলে বন্ধুদের সাথে শেয়ার করুন ও গিটহাবে একটা স্টার (⭐) দিয়ে দিন! ❤️
 ```
@@ -48,7 +48,7 @@
 ম্যাক, উইন্ডোজ আর অ্যান্ড্রয়েডের জন্য বানালাম ওপেন-সোর্স অ্যাপ **ShotgunKeys**!
 
 🎧 লাইভ সাউন্ড শুনে ডাউনলোড করুন:
-👉 https://fahmidhasantaohid.github.io/ShotgunKeys/
+👉 https://fahmidhasann.github.io/ShotgunKeys/
 
 - অ্যান্ড্রয়েড ব্যবহারকারীরা সরাসরি APK ইনস্টল করে যেকোনো কীবোর্ডের সাথে চালাতে পারবেন।
 - ম্যাক ও উইন্ডোজে জিরো-ল্যাগ ব্যাকগ্রাউন্ড মোডে চলবে।
@@ -64,18 +64,18 @@
 📥 **সরাসরি ডাউনলোড লিঙ্কসমূহ:**
 
 🍏 **ম্যাকবুক ইউজারদের জন্য:**
-https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-macOS.zip
+https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-macOS.zip
 *(ডাউনলোড করে আনজিপ করে Settings > Accessibility পারমিশন অন করুন)*
 
 🪟 **উইন্ডোজ ইউজারদের জন্য:**
-https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-Windows.zip
+https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys-Windows.zip
 *(এক্সট্রাক্ট করে run.bat ফাইলে ডাবল ক্লিক করুন)*
 
 🤖 **অ্যান্ড্রয়েড ফোনের জন্য (APK):**
-https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys.apk
+https://github.com/fahmidhasann/ShotgunKeys/releases/download/v1.0.0/ShotgunKeys.apk
 *(ইনস্টল করে Accessibility সার্ভিস অন করুন)*
 
-⭐ **গিটহাব সোর্স কোড:** https://github.com/fahmidhasantaohid/ShotgunKeys
+⭐ **গিটহাব সোর্স কোড:** https://github.com/fahmidhasann/ShotgunKeys
 ```
 
 ---
@@ -84,11 +84,11 @@ https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/Shotgu
 
 1. **গিটহাবে রিপো তৈরি করুন**:
    ```bash
-   cd /Users/fahmidhasantaohid/Desktop/ShotgunKeys
+   cd /Users/fahmidhasann/Desktop/ShotgunKeys
    git init
    git add .
    git commit -m "feat: ShotgunKeys v1.0.0 multi-platform release"
-   git remote add origin https://github.com/fahmidhasantaohid/ShotgunKeys.git
+   git remote add origin https://github.com/fahmidhasann/ShotgunKeys.git
    git branch -M main
    git push -u origin main
    ```
@@ -103,4 +103,4 @@ https://github.com/fahmidhasantaohid/ShotgunKeys/releases/download/v1.0.0/Shotgu
 3. **GitHub Pages চালু করুন**:
    - রিপোর **Settings** -> **Pages**-এ যান।
    - **Branch** সিলেক্ট করুন: `main`, ফোল্ডার সিলেক্ট করুন: `/docs`।
-   - **Save** করুন। সাথে সাথে আপনার লাইভ ল্যান্ডিং ওয়েবসাইট চালু হয়ে যাবে: `https://fahmidhasantaohid.github.io/ShotgunKeys/`!
+   - **Save** করুন। সাথে সাথে আপনার লাইভ ল্যান্ডিং ওয়েবসাইট চালু হয়ে যাবে: `https://fahmidhasann.github.io/ShotgunKeys/`!
