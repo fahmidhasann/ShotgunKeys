@@ -69,10 +69,10 @@ def align_apk(input_path, output_path, alignment=4):
             f_out.write(struct.pack('<HH', dostime, dosdate))
 
             f_out.write(struct.pack('<III', item.CRC, item.compress_size, item.file_size))
-            f_out.write(struct.pack('<HHH', len(filename_bytes), len(item.extra or b''), len(item.comment or b'')))
+            f_out.write(struct.pack('<HHH', len(filename_bytes), len(extra), len(item.comment or b'')))
             f_out.write(struct.pack('<HHII', 0, 0, 0, local_header_offset))
             f_out.write(filename_bytes)
-            f_out.write(item.extra or b'')
+            f_out.write(extra)
             f_out.write(item.comment or b'')
 
         cd_size = f_out.tell() - cd_offset
